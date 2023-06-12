@@ -1,8 +1,8 @@
 [
     {
-      "company_name": "Instagram (Meta)",
-      "position": "Software Engineer Intern",
-      "company_link": "https://www.facebook.com/careers/",
+      "company_name": "Recly",
+      "position": "Software Development Intern",
+      "company_link": "https://www.reclyapp.com/",
       "description": [
         "Instagram Ads Ranking & Delivery team",
         "Improved ML-based ad-ranking algorithms to include different factors in ad design as well as user preferences",
@@ -10,13 +10,13 @@
         "Created experiments on different segments of users to determine effectiveness of performance optimizations",
         "Built recurring data pipelines to query petabyte-scale tables for extracting ads performance signals"
       ],
-      "dates": "June 2021 - Aug 2021",
-      "location": "New York, NY (remote)"
+      "dates": "May 2023 - Aug 2023",
+      "location": "Durham, NC (remote)"
     },
     {
-      "company_name": "Google",
+      "company_name": "Valensas",
       "position": "Software Engineer Intern",
-      "company_link": "https://careers.google.com/",
+      "company_link": "https://valensas.com/",
       "description": [
         "Business Messages — G Suite, Google Cloud Communication Apps",
         "Developed tools for integrating natural language processing features into chat-bots within Google Maps + Search",
@@ -25,20 +25,33 @@
         "Built EJS + Bootstrap console for company partners to manage agents and directly message users",
         "Created setup script for account creation, database + server initialization, and deployment to Google App Engine"
       ],
-      "dates": "May 2020 - Aug 2020",
-      "location": "Mountain View, CA (remote)"
+      "dates": "May 2023 - Aug 2023",
+      "location": "Istanbul, Turkey"
     },
     {
-      "company_name": "MIT Media Lab",
-      "position": "Biomechatronics Intern",
-      "company_link": "https://media.mit.edu/groups/biomechatronics/overview",
+      "company_name": "DAML Group",
+      "position": "Machine Learning Engineer",
+      "company_link": "https://www.dukeaml.com/",
       "description": [
         "Developed high throughput compute cluster with workload distribution software HTCondor for iterative finite element modeling of prosthetic limb designs",
         "Increased speed and efficiency of computation by over 60% using containerized solutions in Docker and Ubuntu Linux",
         "Wrote Python scripts to handle submission of processing jobs across compute cluster",
         "Parallelized HTCondor workflow across set of old workstations to re-purpose retired machines for math computation"
       ],
-      "dates": "March 2018",
-      "location": "Cambridge, MA"
+      "dates": "March 2023",
+      "location": "Durham, NC"
+    },
+    {
+      "company_name": "Ataol Group",
+      "position": "Data Analyst Intern",
+      "company_link": "https://www.dukeaml.com/",
+      "description": [
+        "Developed high throughput compute cluster with workload distribution software HTCondor for iterative finite element modeling of prosthetic limb designs",
+        "Increased speed and efficiency of computation by over 60% using containerized solutions in Docker and Ubuntu Linux",
+        "Wrote Python scripts to handle submission of processing jobs across compute cluster",
+        "Parallelized HTCondor workflow across set of old workstations to re-purpose retired machines for math computation"
+      ],
+      "dates": "March 2023",
+      "location": "Istanbul, Turkey (remote)"
     }
   ]

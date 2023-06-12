@@ -52,21 +52,23 @@ class App extends Component {
       <div className="About">
         <div>
           <div className="typing" style={{ fontSize: "3.5em", width: "100%", fontWeight: "bold" }}>
-            Hi, I'm 
-              <span> Mert Bildirici.</span>
+            Hi, I'm
+            <span> Mert Bildirici.</span>
           </div>
-          
+
           <img
             alt="headshot"
-            style={{ maxHeight: "30vh", marginTop: 10,
-            borderRadius: "50%", 
-            width: "200px", 
-            height: "200px",
-            objectFit: "cover",}}
+            style={{
+              maxHeight: "30vh", marginTop: 10,
+              borderRadius: "50%",
+              width: "200px",
+              height: "200px",
+              objectFit: "cover",
+            }}
             src={"./headshot.jpg"}
           />
         </div>
-        
+
 
         <Grid container spacing={0} direction="column" justify="center">
           <div>
@@ -157,7 +159,7 @@ class App extends Component {
                   transition: "opacity .2s",
                 }}
               />
-              </a>
+            </a>
             <a
               href="mailto:hmertbildirici@gmail.com"
               onMouseOver={() => {
@@ -193,28 +195,28 @@ class App extends Component {
               lineHeight: "24pt",
             }}
           >
-            I'm a rising sophomore at Duke University studying Computer Science and Statistics. 
-            I am interested in machine learning and
-            its applications to other fields such as sports, biology and finance. I
-            love technology and learning new things. Currently, I am a software
-            engineering intern at Recly, a startup that aims to connect workout partners.
+            I'm a rising sophomore at Duke University studying Computer Science and Statistics.
+            I am passionate about machine learning and its applications in sports, biology, and finance.
+            I thrive on staying updated with the latest advancements in technology and love
+            exploring new areas of knowledge. I am excited to leverage my skills and knowledge
+            to contribute to innovative solutions that make a positive impact on society.
             <br />
             <br />
-            While I was at Duke, I interned at Meta as a software engineer
-            intern on the Instagram Ads Ranking and Delivery team. There, I
-            worked on improving algorithms used for ranking various ads across
-            Stories and Reels based on user interaction.
+            Currently, I am a software engineering intern at Valensas Technologies, a software company that
+            provides services to big firms in Turkey. I am working on an app called
+            PayPro, which allows users to make purchases and expenses using a
+            pre-authorized payment method, even in areas with limited internet connectivity.
+            This is a service for Turkish Airlines, the biggest company of the country. It
+            will allow fliers to pay for in-flight purchases without the need of cards.
             <br />
             <br />
-            I was a software engineering intern at Google during the summer of
-            2020. There, I worked on the Google Business Messages team, creating
-            tools for company partners to integrate natural language processing
-            into support chatbots.
+            I am also interning at Recly, a
+            startup that aims to connect workout partners. I am working on fixing bugs on the app
+            and developing new features to better the user experience.
             <br /> <br />
-            In the summer of 2019, I worked at Intralinks as an intern on the
-            innovation team, building natural language processing pipelines to
-            help streamline customer acquisition. In high school, I worked with
-            Curoverse Research to help us better understand the human genome.
+            During the school year, I was part of the Duke Applied Machine Learning Group.
+            My group worked on a project that used AI/ML techniques to assess Parkinson's Disease
+            progression.
             <br />
             <br />
           </span>
@@ -284,14 +286,14 @@ class App extends Component {
       </div>
     );
   };
-  
+
   // Method to toggle the display of contact information
   showContactInfo = () => {
     this.setState((prevState) => ({
       showContact: !prevState.showContact,
     }));
   };
-  
+
 
   render() {
     const { width } = this.state;
@@ -338,35 +340,22 @@ class App extends Component {
           <i className="contact-button" aria-hidden="true" />
         </AnchorLink>
 
-        <div className="divider" />
+
 
         <div id="contact" style={{ width: "100%" }}>
-          <div style={{ fontSize: "4em", marginTop: 0 }}>
-            Want to get in touch?
-          </div>
           {this.getContact()}
         </div>
         <div className="SideBySide" style={{ width: "100%" }}>
-          <div style={{ marginRight: "auto", padding: 20 }}>
-            © Mert Bildirici, {new Date().getFullYear()}
-          </div>
           <AnchorLink
             href="#main"
             style={{
-              marginLeft: "auto",
-              marginRight: "auto",
               padding: 20,
               textAlign: "center",
+              display: "block"
             }}
           >
             Back to Top
           </AnchorLink>
-          <a
-            href="https://github.com/mertbildirici1"
-            style={{ marginLeft: "auto", padding: 20 }}
-          >
-            Website Source Code
-          </a>
         </div>
       </div>
     );
