@@ -77,7 +77,7 @@ class App extends Component {
               onMouseOut={() => {
                 this.setHovering(null);
               }}
-              href="https://github.com/kevin-fang/"
+              href="https://github.com/mertbildirici1"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -136,6 +136,28 @@ class App extends Component {
                 }}
               />
             </a>
+            <a
+              onMouseOver={() => {
+                this.setHovering("resume");
+              }}
+              onMouseOut={() => {
+                this.setHovering(null);
+              }}
+              href="./cv.pdf"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                alt="Resume"
+                src={"./curriculum-vitae.png"}
+                style={{
+                  width: "2em",
+                  margin: 5,
+                  opacity: this.getOpacity("resume"),
+                  transition: "opacity .2s",
+                }}
+              />
+              </a>
             <a
               href="mailto:hmertbildirici@gmail.com"
               onMouseOver={() => {
@@ -340,7 +362,7 @@ class App extends Component {
             Back to Top
           </AnchorLink>
           <a
-            href="https://github.com/kevin-fang/kevinzfang.com"
+            href="https://github.com/mertbildirici1"
             style={{ marginLeft: "auto", padding: 20 }}
           >
             Website Source Code
