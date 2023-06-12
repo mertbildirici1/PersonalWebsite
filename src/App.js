@@ -51,19 +51,23 @@ class App extends Component {
     return (
       <div className="About">
         <div>
-          <div style={{ fontSize: "3.5em", width: "100%", fontWeight: "bold" }}>
-            Hi, I'm Mert Bildirici.
+          <div className="typing" style={{ fontSize: "3.5em", width: "100%", fontWeight: "bold" }}>
+            Hi, I'm 
+              <span> Mert Bildirici.</span>
           </div>
+          
           <img
             alt="headshot"
             style={{ maxHeight: "30vh", marginTop: 10,
-            borderRadius: "50%", // Make the image circular
-            width: "200px", // Adjust the size as desired
+            borderRadius: "50%", 
+            width: "200px", 
             height: "200px",
             objectFit: "cover",}}
             src={"./headshot.jpg"}
           />
         </div>
+        
+
         <Grid container spacing={0} direction="column" justify="center">
           <div>
             <a
@@ -106,6 +110,28 @@ class App extends Component {
                   width: "2em",
                   margin: 5,
                   opacity: this.getOpacity("linkedin"),
+                  transition: "opacity .2s",
+                }}
+              />
+            </a>
+            <a
+              onMouseOver={() => {
+                this.setHovering("instagram");
+              }}
+              onMouseOut={() => {
+                this.setHovering(null);
+              }}
+              href="https://www.instagram.com/mertbildiricii/"
+              target="_blank"
+              rel="noopener noreferrer"
+            >
+              <img
+                alt="Instagram"
+                src={"./instagram.png"}
+                style={{
+                  width: "2em",
+                  margin: 5,
+                  opacity: this.getOpacity("instagram"),
                   transition: "opacity .2s",
                 }}
               />
@@ -208,21 +234,42 @@ class App extends Component {
     // returns contact information
     return (
       <div style={{ marginBottom: "4vh", margin: 20 }}>
-        <span
-          style={{
-            maxWidth: "75vw",
-            fontSize: "1.2em",
-            display: "block",
-            marginLeft: "auto",
-            marginRight: "auto",
-            lineHeight: "24pt",
-          }}
+        <button
+          className="contact-button"
+          onClick={this.showContactInfo}
         >
-          Feel free to email me at hello [at] kevinzfang.com
-        </span>
+          Contact
+        </button>
+        {/* Display the contact information when it's visible */}
+        {this.state.showContact && (
+          <div className="contact-info">
+            <span
+              style={{
+                maxWidth: "75vw",
+                fontSize: "1.2em",
+                display: "block",
+                marginLeft: "auto",
+                marginRight: "auto",
+                lineHeight: "24pt",
+              }}
+            >
+              Email: hmertbildirici@gmail.com
+              <br />
+              Phone: +1234567890
+            </span>
+          </div>
+        )}
       </div>
     );
   };
+  
+  // Method to toggle the display of contact information
+  showContactInfo = () => {
+    this.setState((prevState) => ({
+      showContact: !prevState.showContact,
+    }));
+  };
+  
 
   render() {
     const { width } = this.state;
@@ -266,7 +313,7 @@ class App extends Component {
 
         <SkillsComponent />
         <AnchorLink href="#contact" style={{ bottom: "-100vh" }}>
-          <i className="icon fa fa-chevron-down bounce" aria-hidden="true" />
+          <i className="contact-button" aria-hidden="true" />
         </AnchorLink>
 
         <div className="divider" />

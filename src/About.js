@@ -15,22 +15,41 @@ export default class AboutComponent extends Component {
             lineHeight: "24pt",
           }}
         >
-          I graduated from Duke University summa cum laude, with a major in
-          Computer Science and a minor in Linguistics. I am passionate about
-          exploring new technologies and learning to best use them to build
-          innovative projects.
+          Raised in both the US and Turkey, I take immense pride in my
+          identity as a global citizen. This upbringing has bestowed upon me
+          a unique perspective that greatly enriches both my personal and professional life.
+          I find great joy in exploring diverse cultures, embracing different viewpoints, and bridging
+          the gaps between various communities.
           <br />
           <br />
-          I transferred to Duke as a rising sophomore in CS. Before Duke, I was
-          a student at the New York University Tandon School of Engineering, and
-          before that, I was a student at Commonwealth High School, where I
-          gained a deeper appreciation for the non-STEM fields. I learned about
-          writing with clarity and precision, which is now probably one of the
-          most important skills I know.
+          My passion lies in the realm of technology, where I am constantly driven to 
+          explore new frontiers and harness the power of emerging innovations. It is through 
+          this exploration that I strive to create and develop innovative projects that push 
+          boundaries and make a positive impact. The intersection of Computer Science and Statistics 
+          serves as the perfect conduit for my ambitions, as it allows me to navigate a vast 
+          and ever-evolving landscape of knowledge and tools.
           <br />
           <br />
-          When I'm not working on my own projects, you'll probably find me at a
-          hackathon, at the gym, making coffee, or practicing piano.
+          I am fascinated by the depth and intricacies of this field, as it constantly 
+          unveils new opportunities for growth and discovery. By staying at the forefront of 
+          technological advancements, I continuously equip myself with the skills and knowledge 
+          necessary to tackle complex challenges and drive meaningful change. The dynamic nature 
+          of Computer Science and Statistics fuels my insatiable curiosity and motivates me to 
+          push beyond conventional boundaries.
+          <br />
+          <br />
+          In high school, I had the privilege of attending Robert College, a G30 high school 
+          and the most prestigious educational institution in Turkey,
+           with an acceptance rate of approximately 0.15%. During my time at Robert College,
+            I not only gained a deeper appreciation for non-STEM fields but also cultivated 
+            essential skills in writing with clarity and precision, which have proven to be 
+            invaluable in my journey.
+          <br />
+          <br />
+          When I'm not working on my own projects, you'll likely find me at the gym, pool, 
+          soccer field, or indulging in hobbies like candle making and cooking. 
+          These activities bring me joy, balance, and allow me to explore my creativity 
+          outside the realm of technology.
         </span>
       </div>
     );

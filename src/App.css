@@ -88,3 +88,32 @@
       opacity: 1;
     }
   }
+
+  .contact-button {
+    background: none;
+    border: none;
+    cursor: pointer;
+    font-size: 1em;
+    padding: 10px 20px;
+    color: #000;
+    text-decoration: underline;
+  }
+  
+  .contact-info {
+    margin-top: 20px;
+  }
+  .typing {
+  color: black;
+  overflow: hidden;
+  white-space: nowrap;
+  margin: 0 auto;
+  letter-spacing: .08em;
+  animation: typing 5s steps(30, end), blink-caret .5s step-end 5s forwards;
+}
+
+@keyframes typing {
+  from { width: 0 }
+  to { width: 100% }
+}
+
+
