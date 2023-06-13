@@ -51,9 +51,8 @@ class App extends Component {
     return (
       <div className="About">
         <div>
-          <div className="typing" style={{ fontSize: "3.5em", width: "100%", fontWeight: "bold" }}>
-            Hi, I'm
-            <span> Mert Bildirici.</span>
+          <div className="typing" style={{ fontSize: "3.1em", width: "100%", fontWeight: "bold" }}>
+            Hi, I'm Mert Bildirici
           </div>
 
           <img

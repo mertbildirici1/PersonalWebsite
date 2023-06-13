@@ -24,15 +24,15 @@
     "libraries": [
       {
         "name": "Pandas",
-        "logo": "pandas.jpg"
+        "logo": "pandas.png"
       },
       {
-        "name": "scikit-learn",
-        "logo": "scikit-learn.jpg"
+        "name": "Scikit-Learn",
+        "logo": "scikit.png"
       },
       {
         "name": "NumPy",
-        "logo": "scikit-learn.jpg"
+        "logo": "numpy.png"
       }
     ],
     "web": [
