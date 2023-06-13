@@ -1,19 +1,19 @@
 [
     {
-      "name": "Vase, a Sharded KV Store on Kubernetes",
-      "image": "https://github.com/kevin-fang/vase-a-sharded-kv-store-on-kubernetes/blob/main/pictures/cluster_diagram.png?raw=true",
+      "name": "DinoGame",
+      "image": "./dinog.jpeg",
       "priority": 0.9,
-      "github": "https://github.com/kevin-fang/vase-a-sharded-kv-store-on-kubernetes",
-      "summary": "A sharded, consistent and scalable key-value store running on Kubernetes based on etcd",
-      "description": "Vase is a sharded, consistent and scalable key-value store based on the application etcd, running on Kubernetes. We used ReplicaSet scaling for the sharding service front-end, and StatefulSet scaling for the etcd key-value store backend. We scaled both the number of replicas and shards and benchmarked using a load generation service (locust.io), and we were able to demonstrate increased throughput, decreased latency, and improved tail latency."
+      "github": "https://github.com/mertbildirici1/DinoGame",
+      "summary": "A new way to play your favorite computer game",
+      "description": "By utilizing computer vision techniques and libraries, the application detects and tracks hand movements, enabling users to play the Google Dino game without a keyboard. With precise hand gesture recognition, players can control the game intuitively, eliminating the need for traditional keyboard controls. Experience a new level of interactivity through this cutting-edge hand gesture recognition technology."
     },
     {
-      "name": "Reinforced Flappy Bird",
-      "image": "https://raw.githubusercontent.com/kevin-fang/reinforced-flappy-bird/master/animation.gif",
+      "name": "AutoComplete",
+      "image": "./auto.png",
       "link": "https://www.youtube.com/watch?v=PNE6KFNn1yY",
       "priority": 1.2,
-      "github": "https://github.com/kevin-fang/reinforced-flappy-bird",
-      "summary": "Play Flappy Bird with neural networks",
-      "description": "For my final, independent CS project in high school, I used policy gradients to train a neural net to play Flappy Bird. The neural net read the state of a Flappy Bird game and would predict the optimal move (jump or fall). Based on results of the previous games, it would learn to make better predictions over time. After a few hundred iterations of training, the AI was able to play Flappy Bird without failing."
+      "github": "https://github.com/mertbildirici1/Route",
+      "summary": "Google Autocomplete using binary search",
+      "description": "For my CS project, I developed an autocomplete tool that leverages weighted prefixes and implements binary search. By utilizing weighted prefixes, the tool suggests relevant completions based on the user's input, prioritizing the most frequently used options. The efficient binary search algorithm ensures quick retrieval of autocomplete suggestions, providing a seamless and responsive user experience."
     }
   ]
