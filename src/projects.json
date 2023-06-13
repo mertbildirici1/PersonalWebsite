@@ -15,23 +15,5 @@
       "github": "https://github.com/kevin-fang/reinforced-flappy-bird",
       "summary": "Play Flappy Bird with neural networks",
       "description": "For my final, independent CS project in high school, I used policy gradients to train a neural net to play Flappy Bird. The neural net read the state of a Flappy Bird game and would predict the optimal move (jump or fall). Based on results of the previous games, it would learn to make better predictions over time. After a few hundred iterations of training, the AI was able to play Flappy Bird without failing."
-    },
-    {
-      "name": "On the Efficacy of Renewable Portfolio Standards",
-      "image": "./datathon_graph.jpg",
-      "link": "",
-      "priority": 1.5,
-      "github": "https://github.com/Kevin-Fang/2019-citadel-datathon",
-      "summary": "Our Citadel 2019 Data Open project",
-      "description": "For the 2019 Citadel Data Open at Princeton, our team worked on analyzing the efficacy of renewable portfolio standards using the SEDS dataset from the U.S. Energy Information Administration. We then modeled how it affected emissions data and electricity revenue data with a difference-in-differences econometrics model."
-    },
-    {
-      "name": "DearAI [PennApps XIX - Top 5, Best Entertainment Hack]",
-      "image": "./dearai.jpg",
-      "link": "https://devpost.com/software/dear-ai",
-      "priority": 1.3,
-      "github": "https://github.com/kevin-fang/dear-ai",
-      "summary": "Combating depression through suggestions and recommendations, .",
-      "description": "Since many teenagers do not actively seek out support for potential mental health issues (either due to financial or personal reasons), we built an app that integrates daily journaling with sentiment analysis software, to inform teens about their emotions using machine learning and IBM Watson's Tone Analyzer API. Based on the resultant data, we recommend to them activities designed to improve their well-being."
     }
   ]

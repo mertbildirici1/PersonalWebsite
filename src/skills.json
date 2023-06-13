@@ -15,15 +15,23 @@
       {
         "name": "Typescript",
         "icon": "devicon-typescript-plain colored"
+      },
+      {
+        "name": "Python",
+        "icon": "devicon-python-plain colored"
       }
     ],
     "libraries": [
       {
-        "name": "TensorFlow",
-        "logo": "tensorflow.jpg"
+        "name": "Pandas",
+        "logo": "pandas.jpg"
       },
       {
         "name": "scikit-learn",
+        "logo": "scikit-learn.jpg"
+      },
+      {
+        "name": "NumPy",
         "logo": "scikit-learn.jpg"
       }
     ],
