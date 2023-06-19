@@ -15,6 +15,7 @@ class App extends Component {
     this.state = {
       hovering: null,
       width: window.innerWidth,
+      showContact: false,
     };
   }
 
@@ -51,14 +52,18 @@ class App extends Component {
     return (
       <div className="About">
         <div>
-          <div className="typing" style={{ fontSize: "3.1em", width: "100%", fontWeight: "bold" }}>
+          <div
+            className="typing"
+            style={{ fontSize: "3.1em", width: "100%", fontWeight: "bold" }}
+          >
             Hi, I'm Mert Bildirici
           </div>
 
           <img
             alt="headshot"
             style={{
-              maxHeight: "30vh", marginTop: 10,
+              maxHeight: "30vh",
+              marginTop: 10,
               borderRadius: "50%",
               width: "200px",
               height: "200px",
@@ -67,7 +72,6 @@ class App extends Component {
             src={"./headshot.jpg"}
           />
         </div>
-
 
         <Grid container spacing={0} direction="column" justify="center">
           <div>
@@ -194,28 +198,32 @@ class App extends Component {
               lineHeight: "24pt",
             }}
           >
-            I'm a rising sophomore at Duke University studying Computer Science and Statistics.
-            I am passionate about machine learning and its applications in sports, biology, and finance.
-            I thrive on staying updated with the latest advancements in technology and love
-            exploring new areas of knowledge. I am excited to leverage my skills and knowledge
-            to contribute to innovative solutions that make a positive impact on society.
+            I'm a rising sophomore at Duke University studying Computer Science
+            and Statistics. I am passionate about machine learning and its
+            applications in sports, biology, and finance. I thrive on staying
+            updated with the latest advancements in technology and love
+            exploring new areas of knowledge. I am excited to leverage my skills
+            and knowledge to contribute to innovative solutions that make a
+            positive impact on society.
             <br />
             <br />
-            Currently, I am a software engineering intern at Valensas Technologies, a software company that
-            provides services to big firms in Turkey. I am working on an app called
-            PayPro, which allows users to make purchases and expenses using a
-            pre-authorized payment method, even in areas with limited internet connectivity.
-            This is a service for Turkish Airlines, the biggest company of the country. It
-            will allow fliers to pay for in-flight purchases without the need of cards.
+            Currently, I am a software engineering intern at Valensas
+            Technologies, a software company that provides services to big firms
+            in Turkey. I am working on an app called PayPro, which allows users
+            to make purchases and expenses using a pre-authorized payment
+            method, even in areas with limited internet connectivity. This is a
+            service for Turkish Airlines, the biggest company of the country. It
+            will allow fliers to pay for in-flight purchases without the need of
+            cards.
             <br />
             <br />
-            I am also interning at Recly, a
-            startup that aims to connect workout partners. I am working on fixing bugs on the app
-            and developing new features to better the user experience.
+            I am also interning at Recly, a startup that aims to connect workout
+            partners. I am working on fixing bugs on the app and developing new
+            features to better the user experience.
             <br /> <br />
-            During the school year, I was part of the Duke Applied Machine Learning Group.
-            My group worked on a project that used AI/ML techniques to assess Parkinson's Disease
-            progression.
+            During the school year, I was part of the Duke Applied Machine
+            Learning Group. My group worked on a project that used AI/ML
+            techniques to assess Parkinson's Disease progression.
             <br />
             <br />
           </span>
@@ -245,9 +253,13 @@ class App extends Component {
           <AnchorLink className="navbar-item" href="#skills">
             Skills
           </AnchorLink>
-          <AnchorLink className="navbar-item" href="#contact">
+          <a
+            className="navbar-item"
+            href="#contact"
+            onClick={this.showContactInfo}
+          >
             Contact
-          </AnchorLink>
+          </a>
         </div>
       </nav>
     );
@@ -256,29 +268,23 @@ class App extends Component {
   getContact = () => {
     // returns contact information
     return (
-      <div style={{ marginBottom: "4vh", margin: 20 }}>
-        <button
-          className="contact-button"
-          onClick={this.showContactInfo}
-        >
-          Contact
-        </button>
-        {/* Display the contact information when it's visible */}
+      <div style={{ marginBottom: "4vh" }}>
         {this.state.showContact && (
           <div className="contact-info">
             <span
               style={{
                 maxWidth: "75vw",
-                fontSize: "1.2em",
+                fontSize: "0.8em",
                 display: "block",
                 marginLeft: "auto",
                 marginRight: "auto",
-                lineHeight: "24pt",
               }}
             >
               Email: hmertbildirici@gmail.com
               <br />
-              Phone: +1234567890
+              Phone: +1 919-433-6434
+              <br />
+              Phone: +90 532-152-4209
             </span>
           </div>
         )}
@@ -287,12 +293,12 @@ class App extends Component {
   };
 
   // Method to toggle the display of contact information
-  showContactInfo = () => {
+  showContactInfo = (event) => {
+    event.preventDefault(); // Prevent the default scroll behavior
     this.setState((prevState) => ({
       showContact: !prevState.showContact,
     }));
   };
-
 
   render() {
     const { width } = this.state;
@@ -339,18 +345,18 @@ class App extends Component {
           <i className="contact-button" aria-hidden="true" />
         </AnchorLink>
 
-
-
         <div id="contact" style={{ width: "100%" }}>
           {this.getContact()}
         </div>
+
         <div className="SideBySide" style={{ width: "100%" }}>
           <AnchorLink
             href="#main"
             style={{
               padding: 20,
               textAlign: "center",
-              display: "block"
+              display: "block",
+              marginTop: -40
             }}
           >
             Back to Top

@@ -89,19 +89,20 @@
     }
   }
 
-  .contact-button {
-    background: none;
-    border: none;
-    cursor: pointer;
-    font-size: 1em;
-    padding: 10px 20px;
-    color: #000;
-    text-decoration: underline;
-  }
+
   
   .contact-info {
-    margin-top: 20px;
-  }
+    margin-top: 30px;
+      position: fixed;
+      top: 60px; /* Adjust the top value to your preference */
+      right: 10px; /* Adjust the right value to your preference */
+      padding: 10px;
+      /* border: 0.5px solid #ccc; */
+      border-radius: 25px;
+      z-index: 9999;
+      color: black;
+      font-weight: 300;
+    }
   .typing {
   color: black;
   overflow: hidden;

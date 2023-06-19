@@ -126,7 +126,7 @@ export default class SkillsComponent extends Component {
   render() {
     return (
       <div id="skills" style={{ width: "100%" }}>
-        <div style={{ fontSize: "4em", marginTop: 0 }}>
+        <div style={{ fontSize: "4em", marginTop: 0}}>
           <b>Technical Skills</b>
         </div>
         {this.getSkills()}
