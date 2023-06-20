@@ -5,6 +5,11 @@
         "icon": "devicon-java-plain colored"
       },
       {
+        "name": "R",
+        "icon": "devicon-r-original colored"
+      
+      },
+      {
         "name": "C",
         "icon": "devicon-c-plain colored"
       },
@@ -57,6 +62,12 @@
       {
         "name": "GitHub",
         "icon": "devicon-github-plain colored"
+      },
+      {
+        "name": "RStudio",
+        "icon": "devicon-rstudio-plain colored"
+      
       }
+
     ]
   }

@@ -60,7 +60,7 @@ export default class AboutComponent extends Component {
         <div
           style={{ fontSize: "4em", margin: 30, marginTop: 0, marginBottom: 0 }}
         >
-          <b>About Me</b>
+          <b style={{color: "black"}}>About Me</b>
         </div>
         {this.getAbout()}
         <br />

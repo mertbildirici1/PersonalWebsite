@@ -120,7 +120,7 @@ export default class ProjectComponent extends Component {
             marginBottom: 10,
           }}
         >
-          <b>Selected Projects</b>
+          <b style={{color: "black"}}>Selected Projects</b>
         </div>
         {this.getProjects()}
         <br />
