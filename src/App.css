@@ -8,9 +8,14 @@
     display: flex;
     justify-content: center;
   }
+
+  .backtotop :hover {
+    color: black;
+    font-weight: bolder;
+  }
   
   .divider {
-    background: rgba(200, 200, 200);
+    background: orange;
     height: 1px;
     margin-top: 0.5em;
     margin-bottom: 2em;
@@ -90,14 +95,17 @@
   }
   .navbar-item:hover {
     border-bottom: 1.5px solid orange;
+    font-weight: bold;
+    color: black;
+    cursor: pointer;
   }
 
   
   .contact-info {
     margin-top: 30px;
       position: fixed;
-      top: 60px; /* Adjust the top value to your preference */
-      right: 10px; /* Adjust the right value to your preference */
+      top: 60px;
+      right: 10px; 
       padding: 10px;
       /* border: 0.5px solid #ccc; */
       border-radius: 25px;
