@@ -3,6 +3,7 @@
     font-family: 'Montserrat', sans-serif;
     /*font-family: 'Source Serif Pro', serif;*/
   }
+
   
   .SideBySide {
     display: flex;
@@ -16,7 +17,7 @@
   
   .divider {
     background: orange;
-    height: 1px;
+    height: 2px;
     margin-top: 0.5em;
     margin-bottom: 2em;
     max-width: 800px;
@@ -99,8 +100,6 @@
     color: black;
     cursor: pointer;
   }
-
-  
   .contact-info {
     margin-top: 30px;
       position: fixed;
@@ -116,10 +115,18 @@
   .typing {
   color: black;
   overflow: hidden;
-  white-space: nowrap;
+  white-space: normal;
   margin: 0 auto;
   letter-spacing: .08em;
-  animation: typing 4s steps(30, end), blink-caret .5s step-end 5s forwards;
+  font-size: 3.1em;
+  width: 100%;
+  font-weight: bold; 
+}
+
+@media screen and (max-width: 600px) {
+  .typing {
+    font-size: 2.5em; /* Adjust the font size as needed */
+  }
 }
 
 @keyframes typing {
