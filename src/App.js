@@ -8,6 +8,7 @@ import ProjectsComponent from "./Projects.js";
 import AboutComponent from "./About.js";
 import ExperienceComponent from "./Experience.js";
 import SkillsComponent from "./Skills.js";
+import "./navbar.css"
 
 class App extends Component {
   constructor(props) {
@@ -350,6 +351,7 @@ class App extends Component {
 
         <div className="SideBySide" style={{ width: "100%" }}>
           <AnchorLink
+          className="backtotop"
             href="#main"
             style={{
               padding: 20,
