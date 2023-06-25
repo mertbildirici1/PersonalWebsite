@@ -8,7 +8,7 @@ import ProjectsComponent from "./Projects.js";
 import AboutComponent from "./About.js";
 import ExperienceComponent from "./Experience.js";
 import SkillsComponent from "./Skills.js";
-import "./navbar.css"
+import "./navbar.css";
 
 class App extends Component {
   constructor(props) {
@@ -53,11 +53,7 @@ class App extends Component {
     return (
       <div className="About">
         <div>
-          <div
-            className="typing"
-          >
-            Hi, I'm Mert Bildirici
-          </div>
+          <div className="typing">Hi, I'm Mert Bildirici</div>
 
           <img
             alt="headshot"
@@ -282,9 +278,9 @@ class App extends Component {
             >
               Email: hmertbildirici@gmail.com
               <br />
-              Phone: +1 919-433-6434
+              <span>🇺🇸</span> Phone: +1 919-433-6434
               <br />
-              Phone: +90 532-152-4209
+              <span>🇹🇷</span> Phone: +90 532-152-4209
             </span>
           </div>
         )}
@@ -351,13 +347,13 @@ class App extends Component {
 
         <div className="SideBySide" style={{ width: "100%" }}>
           <AnchorLink
-          className="backtotop"
+            className="backtotop"
             href="#main"
             style={{
               padding: 20,
               textAlign: "center",
               display: "block",
-              marginTop: -40
+              marginTop: -40,
             }}
           >
             Back to Top
