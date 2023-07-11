@@ -1,5 +1,13 @@
 [
     {
+      "name": "AI Chatbot",
+      "image": "./aibot.png",
+      "priority": 0.9,
+      "github": "https://github.com/mertbildirici1/AI-Chatbot",
+      "summary": "Customized AI Chatbot",
+      "description": "I developed and integrated a customized AI Chatbot into a functional HTML website, utilizing the OpenAI API. The Chatbot enhances user engagement by providing intelligent responses and facilitating interactive conversations."
+    },
+    {
       "name": "DinoGame",
       "image": "./dinog.jpeg",
       "priority": 0.9,
