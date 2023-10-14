@@ -194,7 +194,7 @@ class App extends Component {
               lineHeight: "24pt",
             }}
           >
-            I'm a rising sophomore at Duke University studying Computer Science
+            I'm a sophomore at Duke University studying Computer Science
             and Statistics. I am passionate about machine learning and its
             applications in sports, biology, and finance. I thrive on staying
             updated with the latest advancements in technology and love
@@ -203,23 +203,19 @@ class App extends Component {
             positive impact on society.
             <br />
             <br />
-            Currently, I am a software engineering intern at Valensas
-            Technologies, a software company that provides services to big firms
-            in Turkey. I am working on an app called PayPro, which allows users
-            to make purchases and expenses using a pre-authorized payment
-            method, even in areas with limited internet connectivity. This is a
-            service for Turkish Airlines, the biggest company of the country. It
-            will allow fliers to pay for in-flight purchases without the need of
-            cards.
+            Currently, I am collaborating with two master's students at Duke University as a Mobile Application Developer. 
+            Together, we have designed, built, and deployed a cross-platform app that has been actively used since August 2023. 
+            This app, developed using Java for Android and Swift for iOS, serves as a valuable tool for Duke professors to post 
+            quizzes online, with over 500 active users benefiting from it.Our app leverages Firebase as the backend, featuring a 
+            robust question bank module. We've also integrated a feature that allows professors to release questions at their 
+            discretion. To enhance the user experience, we've implemented real-time notifications for both Android and iOS users. 
+            This was achieved through the use of Firebase Cloud Messaging (FCM) topic messaging and the establishment of a server, 
+            developed using Java and Spring Boot, to handle network requests efficiently.One of our notable achievements has been 
+            optimizing API calls, leading to a 15% reduction in response time. This optimization ensures that users can 
+            access and interact with the app's features swiftly and seamlessly.
             <br />
             <br />
-            I am also interning at Recly, a startup that aims to connect workout
-            partners. I am working on fixing bugs on the app and developing new
-            features to better the user experience.
             <br /> <br />
-            During the school year, I was part of the Duke Applied Machine
-            Learning Group. My group worked on a project that used AI/ML
-            techniques to assess Parkinson's Disease progression.
             <br />
             <br />
           </span>
