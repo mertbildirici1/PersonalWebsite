@@ -24,6 +24,10 @@
       {
         "name": "Python",
         "icon": "devicon-python-plain colored"
+      },
+      {
+        "name": "Go",
+        "icon": "devicon-go-original-wordmark colored"
       }
     ],
     "libraries": [
