@@ -28,6 +28,14 @@
       {
         "name": "Go",
         "icon": "devicon-go-original-wordmark colored"
+      },
+      {
+        "name": "HTML",
+        "icon": "devicon-html5-plain colored"
+      },
+      {
+        "name": "CSS",
+        "icon": "devicon-css3-plain colored"
       }
     ],
     "libraries": [
@@ -42,20 +50,10 @@
       {
         "name": "NumPy",
         "logo": "numpy.png"
-      }
-    ],
-    "web": [
+      },
       {
         "name": "React.js",
         "icon": "devicon-react-plain colored"
-      },
-      {
-        "name": "HTML",
-        "icon": "devicon-html5-plain colored"
-      },
-      {
-        "name": "CSS",
-        "icon": "devicon-css3-plain colored"
       }
     ],
     "misc": [
@@ -71,7 +69,26 @@
         "name": "RStudio",
         "icon": "devicon-rstudio-plain colored"
       
+      },
+      {
+        "name": "VSCode",
+        "icon": "devicon-visualstudio-plain colored"
+      },
+      {
+        "name": "IntelliJ",
+        "icon": "devicon-intellij-plain colored"
+      },
+      {
+        "name": "Jupyter",
+        "icon": "devicon-jupyter-plain colored"
+      },
+      {
+        "name": "Docker",
+        "icon": "devicon-docker-plain colored"
+      },
+      {
+        "name": "Kubernetes",
+        "icon": "devicon-kubernetes-plain colored"
       }
-
     ]
   }
