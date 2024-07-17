@@ -32,61 +32,91 @@ export default class SkillsComponent extends Component {
     }
   };
 
-  createSkillsRow = (title, skills, splitIntoTwo = false) => {
-    if (!splitIntoTwo) {
-      // Original logic for a single row
-      return (
-        <div>
-          <h2>{title}</h2>
-          <div className="skillsRow">
-            {skills.map(skill => (
-              <div key={skill.name} className="skill">
-                <Fade timeout={200} in={this.getVisibility(skill.name)}>
-                  <span style={{ fontSize: ".8em" }}>{skill.name}</span>
-                </Fade>
-              </div>
-            ))}
-          </div>
+  createSkillsRow = (skillType, skills) => {
+    return (
+      <div>
+        <span style={{ fontSize: "1.2em" }}>{skillType}</span>
+        <br />
+        <br />
+        <div className="SideBySide" style={{ flexWrap: "wrap" }}>
+          {skills.map((skill) => {
+            if (skill.icon) {
+              return (
+                <div
+                  onMouseOver={() => {
+                    this.setHovering(skill.name);
+                  }}
+                  onMouseOut={() => {
+                    this.setHovering(null);
+                  }}
+                  onTouchStart={() => {
+                    this.setHovering(skill.name);
+                  }}
+                  onTouchEnd={() => {
+                    this.setHovering(null);
+                  }}
+                  style={{ marginLeft: 20, marginRight: 20 }}
+                >
+                  <i
+                    className={skill.icon}
+                    style={{
+                      fontSize: "3.6em",
+                      opacity: this.getOpacity(skill.name),
+                      transition: "opacity .2s",
+                    }}
+                  />
+                  <br />
+                  <Fade timeout={200} in={this.getVisibility(skill.name)}>
+                    <span style={{ fontSize: ".8em" }}>{skill.name}</span>
+                  </Fade>
+                </div>
+              );
+            } else {
+              return (
+                <div
+                  onMouseOver={() => {
+                    this.setHovering(skill.name);
+                  }}
+                  onMouseOut={() => {
+                    this.setHovering(null);
+                  }}
+                  onTouchStart={() => {
+                    this.setHovering(skill.name);
+                  }}
+                  onTouchEnd={() => {
+                    this.setHovering(null);
+                  }}
+                  style={{ marginLeft: 20, marginRight: 20 }}
+                >
+                  <img
+                    alt={skill.name}
+                    src={skill.logo}
+                    style={{
+                      height: "3.3em",
+                      opacity: this.getOpacity(skill.name),
+                      transition: "opacity .2s",
+                    }}
+                  />
+                  <br />
+                  <Fade timeout={200} in={this.getVisibility(skill.name)}>
+                    <span style={{ fontSize: ".8em" }}>{skill.name}</span>
+                  </Fade>
+                </div>
+              );
+            }
+          })}
         </div>
-      );
-    } else {
-      // Splitting logic for two rows
-      const midpoint = Math.ceil(skills.length / 2);
-      const firstHalf = skills.slice(0, midpoint);
-      const secondHalf = skills.slice(midpoint);
-  
-      return (
-        <div>
-          <h2>{title}</h2>
-          <div className="skillsRow">
-            {firstHalf.map(skill => (
-              <div key={skill.name} className="skill">
-                <Fade timeout={200} in={this.getVisibility(skill.name)}>
-                  <span style={{ fontSize: ".8em" }}>{skill.name}</span>
-                </Fade>
-              </div>
-            ))}
-          </div>
-          <div className="skillsRow">
-            {secondHalf.map(skill => (
-              <div key={skill.name} className="skill">
-                <Fade timeout={200} in={this.getVisibility(skill.name)}>
-                  <span style={{ fontSize: ".8em" }}>{skill.name}</span>
-                </Fade>
-              </div>
-            ))}
-          </div>
-        </div>
-      );
-    }
+        <br />
+      </div>
+    );
   };
 
   getSkills = () => {
     return (
       <div>
-        {this.createSkillsRow("Languages", skills.languages, true)}
-        {this.createSkillsRow("Libraries", skills.libraries, false)}
-        {this.createSkillsRow("Miscellaneous", skills.misc, false)}
+        {this.createSkillsRow("Languages", skills.languages)}
+        {this.createSkillsRow("Libraries", skills.libraries)}
+        {this.createSkillsRow("Miscellaneous", skills.misc)}
         <div className="SideBySide" style={{ width: "100%" }}>
         </div>
       </div>
