@@ -100,7 +100,7 @@ class App extends Component {
               onMouseOut={() => {
                 this.setHovering(null);
               }}
-              href="https://www.linkedin.com/in/mert-bildirici/"
+              href="https://www.linkedin.com/in/bildirici/"
               target="_blank"
               rel="noopener noreferrer"
             >
@@ -202,10 +202,8 @@ class App extends Component {
             and knowledge to contribute to innovative solutions that make a
             positive impact on society.
             <br />
-            <br />
             Currently, I am interning at Tanium as a software engineer. I am working on a Kubernetes operator that will automate
             the upgrade process of Tanium's products in cloud environments.
-            <br />
             <br /> <br />
           </span>
         </div>
