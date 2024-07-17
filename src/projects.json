@@ -1,27 +1,10 @@
 [
     {
-      "name": "AI Chatbot",
-      "image": "./aibot.png",
-      "priority": 0.9,
-      "github": "https://github.com/mertbildirici1/AI-Chatbot",
-      "summary": "Customized AI Chatbot",
-      "description": "I developed and integrated a customized AI Chatbot into a functional HTML website, utilizing the OpenAI API. The Chatbot enhances user engagement by providing intelligent responses and facilitating interactive conversations."
-    },
-    {
       "name": "DinoGame",
       "image": "./dinog.jpeg",
       "priority": 0.9,
       "github": "https://github.com/mertbildirici1/DinoGame",
       "summary": "A new way to play your favorite computer game",
       "description": "By utilizing computer vision techniques and libraries, the application detects and tracks hand movements, enabling users to play the Google Dino game without a keyboard. With precise hand gesture recognition, players can control the game intuitively, eliminating the need for traditional keyboard controls. Experience a new level of interactivity through this cutting-edge hand gesture recognition technology."
-    },
-    {
-      "name": "AutoComplete",
-      "image": "./auto.png",
-      "link": "https://www.youtube.com/watch?v=PNE6KFNn1yY",
-      "priority": 1.2,
-      "github": "https://github.com/mertbildirici1/Route",
-      "summary": "Google Autocomplete using binary search",
-      "description": "For my CS project, I developed an autocomplete tool that leverages weighted prefixes and implements binary search. By utilizing weighted prefixes, the tool suggests relevant completions based on the user's input, prioritizing the most frequently used options. The efficient binary search algorithm ensures quick retrieval of autocomplete suggestions, providing a seamless and responsive user experience."
     }
   ]
