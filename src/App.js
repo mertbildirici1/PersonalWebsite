@@ -206,10 +206,7 @@ class App extends Component {
             Currently, I am interning at Tanium as a software engineer. I am working on a Kubernetes operator that will automate
             the upgrade process of Tanium's products in cloud environments.
             <br />
-            <br />
             <br /> <br />
-            <br />
-            <br />
           </span>
         </div>
       </div>
