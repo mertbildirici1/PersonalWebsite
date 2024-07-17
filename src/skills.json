@@ -62,33 +62,16 @@
         "icon": "devicon-git-plain colored"
       },
       {
-        "name": "GitHub",
-        "icon": "devicon-github-plain colored"
-      },
-      {
-        "name": "RStudio",
-        "icon": "devicon-rstudio-plain colored"
-      
-      },
-      {
-        "name": "VSCode",
-        "icon": "devicon-visualstudio-plain colored"
-      },
-      {
-        "name": "IntelliJ",
-        "icon": "devicon-intellij-plain colored"
-      },
-      {
         "name": "Jupyter",
         "icon": "devicon-jupyter-plain colored"
       },
       {
-        "name": "Docker",
-        "icon": "devicon-docker-plain colored"
-      },
-      {
         "name": "Kubernetes",
         "icon": "devicon-kubernetes-plain colored"
+      },
+      {
+        "name": "Docker",
+        "icon": "devicon-docker-plain colored"
       }
     ]
   }

@@ -116,7 +116,6 @@ export default class SkillsComponent extends Component {
       <div>
         {this.createSkillsRow("Languages", skills.languages)}
         {this.createSkillsRow("Libraries", skills.libraries)}
-        {/* {this.createSkillsRow("Web Development", skills.web)} */}
         {this.createSkillsRow("Miscellaneous", skills.misc)}
         <div className="SideBySide" style={{ width: "100%" }}>
         </div>
