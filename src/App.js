@@ -194,8 +194,8 @@ class App extends Component {
               lineHeight: "24pt",
             }}
           >
-            I'm a sophomore at Duke University studying Computer Science
-            and Statistics. I am passionate about machine learning and its
+            I'm a rising junior at Duke University studying Computer Science
+            and Mathematics. I am passionate about machine learning and its
             applications in sports, biology, and finance. I thrive on staying
             updated with the latest advancements in technology and love
             exploring new areas of knowledge. I am excited to leverage my skills
@@ -203,16 +203,8 @@ class App extends Component {
             positive impact on society.
             <br />
             <br />
-            Currently, I am collaborating with two master's students at Duke University as a Mobile Application Developer. 
-            Together, we have designed, built, and deployed a cross-platform app that has been actively used since August 2023. 
-            This app, developed using Java for Android and Swift for iOS, serves as a valuable tool for Duke professors to post 
-            quizzes online, with over 500 active users benefiting from it.Our app leverages Firebase as the backend, featuring a 
-            robust question bank module. We've also integrated a feature that allows professors to release questions at their 
-            discretion. To enhance the user experience, we've implemented real-time notifications for both Android and iOS users. 
-            This was achieved through the use of Firebase Cloud Messaging (FCM) topic messaging and the establishment of a server, 
-            developed using Java and Spring Boot, to handle network requests efficiently.One of our notable achievements has been 
-            optimizing API calls, leading to a 15% reduction in response time. This optimization ensures that users can 
-            access and interact with the app's features swiftly and seamlessly.
+            Currently, I am interning at Tanium as a software engineer. I am working on a Kubernetes operator that will automate
+            the upgrade process of Tanium's products in cloud environments.
             <br />
             <br />
             <br /> <br />
