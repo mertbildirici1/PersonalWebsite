@@ -1,11 +1,48 @@
 [
   {
-    "company_name": "Duke Statistical Science Department",
+    "company_name": "Tanium",
+    "position": "Software Engineer Intern",
+    "company_link": "",
+    "description": [
+      "Developed a Kubernetes operator in Go to automate installs and upgrades for cloud solutions.",
+      "Integrated K8s operator into CI/CD pipelines, improving deployment workflows and monitoring.",
+      "Conducted optimization and unit testing to ensure the operator met high efficiency standards."
+    ],
+    "dates": "May 2024 - Present",
+    "location": "Remote"
+  },
+  {
+    "company_name": "Duke University",
+    "position": "ML Research Assistant",
+    "company_link": "",
+    "description": [
+      "Conducted research on novel Protein Language Model (PLM) architectures under Dr. Alizadeh.",
+      "Combined protein sequence/structure data; created models for improved predictive performance.",
+      "Leveraged Pytorch to build and test neural network architectures, implementing deep learning."
+    ],
+    "dates": "April 2024 - Present",
+    "location": "Durham, NC"
+  },
+  {
+    "company_name": "Duke University",
+    "position": "Mobile App Developer",
+    "company_link": "",
+    "description": [
+      "Developed an app for professors to post quizzes online, engaging 500+ active users.",
+      "Utilized Firebase to develop a question bank module and integrated a question release feature.",
+      "Implemented real-time notifications by utilizing Firebase Cloud Messaging topic messaging.",
+      "Developed a server in Java using Spring Boot, handling network requests to send notifications."
+    ],
+    "dates": "August 2023 - April 2024",
+    "location": "Durham, NC"
+  },
+  {
+    "company_name": "STATS199",
     "position": "Teaching Assistant",
     "company_link": "https://stat.duke.edu/",
     "description": [
-      "Led discussion sections with 20 students, covering course content in R; graded attendance and assignments.",
-      "Mentored students and answered questions through weekly office hours and class discussion forums."
+      "Led discussion sections with 35+ students, covering course content in R; graded assignments.",
+      "Mentored students; answered questions through weekly office hours & class discussion forums."
     ],
     "dates": "Aug 2023 - Present",
     "location": "Durham, NC"
@@ -33,20 +70,22 @@
       "Developed solutions for critical bugs in Recly, a workout partner connection app written in React.",
       "Enhanced the Messages section by message notifications and improved message synchronization using ReactNative.",
       "Designed and implemented software features that improved the user experience and increased user retention by 40%.",
-      "Extended code so that users could sign in with international phone numbers, adding 200+ international users."
+      "Extended code so users could sign in with international phone numbers, adding 200+ international users.",
+      "Cut build times from 5 minutes to 20 seconds by leading backend environment overhaul."
     ],
     "dates": "May 2022 - Aug 2022",
     "location": "Durham, NC"
   },
   {
-    "company_name": "DAML Group",
-    "position": "Machine Learning Engineer",
+    "company_name": "Duke Applied Machine Learning",
+    "position": "ML Engineer",
     "company_link": "https://www.dukeaml.com/",
     "description": [
       "Working for the project AMP®-Parkinson's Disease Progression Prediction.",
-      "Developed a predictive model for MDS-UPDR scores, which measures the progression of Parkinson's disease.",
-      "Employed machine learning algorithms to analyze and interpret the data, including supervised and unsupervised learning techniques.",
-      "Utilized Python and libraries such as Scikit-learn, Pandas, and NumPy for data processing and model development."
+      "Developed a predictive model measuring the progression of Parkinson's disease.",
+      "Employed ML algorithms to analyze the data, including supervised and unsupervised learning.",
+      "Utilized Scikit-learn, Pandas, and NumPy for data processing and model development."
+
     ],
     "dates": "Feb 2023",
     "location": "Durham, NC"
@@ -56,7 +95,7 @@
     "position": "Data Analyst Intern",
     "company_link": "https://www.linkedin.com/company/ataol/?trk=public_profile_experience-group-header&originalSubdomain=tr",
     "description": [
-      "Conducted software research and provided benefit reports on platforms the company wants to use.",
+      "Conducted software research and provided benefit reports on platforms.",
       "Organized software partnership meetings for company leadership.",
       "Wrote weekly data articles for the company's social media."
     ],

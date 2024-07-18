@@ -112,9 +112,17 @@ export default class SkillsComponent extends Component {
   };
 
   getSkills = () => {
+    // Calculate the middle index to split the languages array
+    const splitIndex = Math.ceil(skills.languages.length / 2);
+    const firstHalfLanguages = skills.languages.slice(0, splitIndex);
+    const secondHalfLanguages = skills.languages.slice(splitIndex);
+  
     return (
       <div>
-        {this.createSkillsRow("Languages", skills.languages)}
+        <div>
+          {this.createSkillsRow("Languages", firstHalfLanguages)}
+          {this.createSkillsRow("", secondHalfLanguages)}
+        </div>
         {this.createSkillsRow("Libraries", skills.libraries)}
         {this.createSkillsRow("Miscellaneous", skills.misc)}
         <div className="SideBySide" style={{ width: "100%" }}>
