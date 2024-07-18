@@ -202,8 +202,13 @@ class App extends Component {
             and knowledge to contribute to innovative solutions that make a
             positive impact on society.
             <br />
-            Currently, I am interning at Tanium as a software engineer. I am working on a Kubernetes operator that will automate
-            the upgrade process of Tanium's products in cloud environments.
+            Currently, I am interning at Tanium as a software engineer. I am working on a 
+            Kubernetes operator that will automate the upgrade process of Tanium's products in cloud environments.
+            In addition, I am conducting research on novel Protein Language Model (PLM) architectures under 
+            Dr. Naderi-Alizadeh. My research involves combining protein sequence and structure data to create models 
+            for improved learning and predictive performance. I leverage Pytorch to build and test neural network 
+            architectures, implementing deep learning techniques to advance our understanding of protein structures 
+            and their functions.
             <br /> <br />
           </span>
         </div>
