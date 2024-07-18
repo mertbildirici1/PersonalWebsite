@@ -1,4 +1,21 @@
 [
+  {
+    "name": "AStar Path Finding",
+    "image": "./astar.png",
+    "priority": 0.9,
+    "link": "https://mertbildirici1.github.io/fractional-tree/",
+    "github": "https://github.com/mertbildirici1/fractional-tree",
+    "summary": "",
+    "description": "This project demonstrates the A* pathfinding algorithm, a widely used pathfinding algorithm in computer science. The application visualizes the algorithm's operation by animating the process of finding the shortest path between two points on a grid. Users can interact with the grid by adding obstacles and changing the start and end points to observe the algorithm's behavior in real time."
+  },
+  {
+    "name": "Fractional Tree",
+    "image": "./ftree1.png",
+    "priority": 0.9,
+    "link": "https://mertbildirici1.github.io/AStar/",
+    "github": "https://github.com/mertbildirici1/AStar",
+    "description": "Adjust the slider to see the fractional tree creation from different angles. Explore the intricate patterns and fractal-like structures that emerge as the tree grows. Observe how the branches branch out and the tree expands with each iteration. Dive into the mesmerizing world of fractals and experience the beauty of nature's mathematical artistry."
+  },
     {
       "name": "DinoGame",
       "image": "./dinog.jpeg",
@@ -7,4 +24,5 @@
       "summary": "A new way to play your favorite computer game",
       "description": "By utilizing computer vision techniques and libraries, the application detects and tracks hand movements, enabling users to play the Google Dino game without a keyboard. With precise hand gesture recognition, players can control the game intuitively, eliminating the need for traditional keyboard controls. Experience a new level of interactivity through this cutting-edge hand gesture recognition technology."
     }
+    
   ]
