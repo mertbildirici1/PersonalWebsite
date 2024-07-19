@@ -6,7 +6,7 @@
     "link": "https://mertbildirici1.github.io/fractional-tree/",
     "github": "https://github.com/mertbildirici1/fractional-tree",
     "summary": "",
-    "description": "This project demonstrates the A* pathfinding algorithm, a widely used pathfinding algorithm in computer science. The application visualizes the algorithm's operation by animating the process of finding the shortest path between two points on a grid. Users can interact with the grid by adding obstacles and changing the start and end points to observe the algorithm's behavior in real time."
+    "description": "This project demonstrates the A* pathfinding algorithm, a widely used pathfinding algorithm in computer science. The app visualizes the algorithm's operation by animating the process of finding the shortest path between two points on a grid. Users can interact with the grid by changing the start and end points to observe the algorithm's behavior in real time."
   },
   {
     "name": "Fractional Tree",

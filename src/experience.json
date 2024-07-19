@@ -52,12 +52,11 @@
     "position": "Software Engineer Intern",
     "company_link": "https://valensas.com/",
     "description": [
-      "Developed a web application with React for PayPro that allows users to make purchases and expenses using a pre-authorized payment method, even in areas with limited internet connectivity.",
-      "Contributed to the development of a web-based interface for PayPro that enables users to view transaction history.",
-      "Created an admin panel using React Admin to efficiently manage and monitor flights and transactions.",
-      "Utilized Postman API to perform a range of flight-related tasks, including retrieving flight data through GET requests, creating and terminating flights using POST requests, and initiating provisioning processes for flights.",
-      "Created the login page for the application using React and JavaScript both for the web platform and the admin panel.",
-      "Leveraged the Multipeer Connectivity Framework to enable transaction history synchronization for flight attendants across all devices within the app."
+      "Developed a React web app for enabling users to make purchases with a pre-authorized payment method, even in areas with limited internet connectivity.",
+      "Built web-based interface for that enables users to view transaction history.",
+      "Created a panel with React Admin to efficiently manage and monitor flights and transactions.",
+      "Utilized Rest API for flight-related tasks: retrieving flight data and creating/terminating flights.",
+      "Leveraged the Multipeer Connectivity Framework to enable transaction history synchronization."
     ],
     "dates": "May 2023 - Aug 2023",
     "location": "Istanbul, Turkey"
@@ -68,9 +67,8 @@
     "company_link": "https://www.reclyapp.com/",
     "description": [
       "Developed solutions for critical bugs in Recly, a workout partner connection app written in React.",
-      "Enhanced the Messages section by message notifications and improved message synchronization using ReactNative.",
-      "Designed and implemented software features that improved the user experience and increased user retention by 40%.",
-      "Extended code so users could sign in with international phone numbers, adding 200+ international users.",
+      "Enhanced the Chat section by message notifications and improved message synchronization.",
+      "Extended code to support international phone number sign-in, adding 200+ international users.",
       "Cut build times from 5 minutes to 20 seconds by leading backend environment overhaul."
     ],
     "dates": "May 2022 - Aug 2022",
