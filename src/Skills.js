@@ -116,14 +116,18 @@ export default class SkillsComponent extends Component {
     const splitIndex = Math.ceil(skills.languages.length / 2);
     const firstHalfLanguages = skills.languages.slice(0, splitIndex);
     const secondHalfLanguages = skills.languages.slice(splitIndex);
+
+    const splitIndex2 = Math.ceil(skills.libraries.length / 2);
+    const firstHalfLibraries = skills.libraries.slice(0, splitIndex2);
+    const secondHalfLibraries = skills.libraries.slice(splitIndex2);
+
   
     return (
       <div>
-        <div>
           {this.createSkillsRow("Languages", firstHalfLanguages)}
           {this.createSkillsRow("", secondHalfLanguages)}
-        </div>
-        {this.createSkillsRow("Libraries", skills.libraries)}
+          {this.createSkillsRow("Libraries", firstHalfLibraries)}
+          {this.createSkillsRow("", secondHalfLibraries)}
         {this.createSkillsRow("Miscellaneous", skills.misc)}
         <div className="SideBySide" style={{ width: "100%" }}>
         </div>
