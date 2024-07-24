@@ -84,6 +84,14 @@
   }
 }
 
+.navbar {
+  position: sticky!important;
+  top: 0;
+  z-index: 1000; /* Ensure it stays on top of other content */
+  background-color: white; /* Optional: set the background color to prevent transparency issues */
+  width: 100%; /* Optional: make sure it spans the entire width */
+}
+
 .navbar-item {
   position: relative;
   display: inline-block;
@@ -98,6 +106,19 @@
   width: 100%;
   height: 2px;
   transition: background-color 0.3s ease;
+}
+
+.dark-mode .navbar {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode .navbar-item {
+  color: white;
+}
+
+.dark-mode .navbar-item:hover {
+  color: orange;
 }
 
 .navbar-item:hover {
@@ -141,6 +162,10 @@
   font-weight: bold;
 }
 
+.typing.dark-mode {
+  color: white;
+}
+
 @media screen and (max-width: 600px) {
   .typing {
     font-size: 2.5em; /* Adjust the font size as needed */
@@ -154,4 +179,26 @@
   to {
     width: 100%;
   }
+}
+
+
+body {
+  background-color: white;
+  color: black;
+  transition: background-color 0.3s, color 0.3s;
+}
+
+/* Dark mode styles */
+body.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.App.dark-mode {
+  background-color: black;
+  color: white;
+}
+
+.dark-mode b {
+  color: white;
 }

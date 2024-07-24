@@ -138,7 +138,7 @@ export default class SkillsComponent extends Component {
     return (
       <div id="skills" style={{ width: "100%" }}>
         <div style={{ fontSize: "4em", marginTop: 0}}>
-          <b style={{color: "black"}}>Technical Skills</b>
+          <b class="b" style={{color: "black"}}>Technical Skills</b>
         </div>
         {this.getSkills()}
       </div>
