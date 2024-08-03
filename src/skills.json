@@ -1,5 +1,5 @@
 {
-    "languages": [
+    "skills": [
       {
         "name": "Java",
         "icon": "devicon-java-plain colored"
@@ -36,9 +36,7 @@
       {
         "name": "CSS",
         "icon": "devicon-css3-plain colored"
-      }
-    ],
-    "libraries": [
+      },
       {
         "name": "Pandas",
         "logo": "pandas.png"
@@ -66,9 +64,7 @@
       {
         "name": "Tensorflow",
         "icon": "devicon-tensorflow-original colored"
-      }
-    ],
-    "misc": [
+      },
       {
         "name": "Git",
         "icon": "devicon-git-plain colored"
@@ -88,6 +84,5 @@
       {
         "name": "Firebase",
         "icon": "devicon-firebase-plain colored"
-      }
-    ]
+      }]
   }

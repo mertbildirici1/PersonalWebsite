@@ -113,22 +113,13 @@ export default class SkillsComponent extends Component {
 
   getSkills = () => {
     // Calculate the middle index to split the languages array
-    const splitIndex = Math.ceil(skills.languages.length / 2);
-    const firstHalfLanguages = skills.languages.slice(0, splitIndex);
-    const secondHalfLanguages = skills.languages.slice(splitIndex);
-
-    const splitIndex2 = Math.ceil(skills.libraries.length / 2);
-    const firstHalfLibraries = skills.libraries.slice(0, splitIndex2);
-    const secondHalfLibraries = skills.libraries.slice(splitIndex2);
-
-  
+    const splitIndex = Math.ceil(skills.skills.length / 2);
+    const firstHalfLanguages = skills.skills.slice(0, splitIndex);
+    const secondHalfLanguages = skills.skills.slice(splitIndex);
     return (
       <div>
-          {this.createSkillsRow("Languages", firstHalfLanguages)}
+          {this.createSkillsRow("", firstHalfLanguages)}
           {this.createSkillsRow("", secondHalfLanguages)}
-          {this.createSkillsRow("Libraries", firstHalfLibraries)}
-          {this.createSkillsRow("", secondHalfLibraries)}
-        {this.createSkillsRow("Miscellaneous", skills.misc)}
         <div className="SideBySide" style={{ width: "100%" }}>
         </div>
       </div>
@@ -138,7 +129,7 @@ export default class SkillsComponent extends Component {
     return (
       <div id="skills" style={{ width: "100%" }}>
         <div style={{ fontSize: "4em", marginTop: 0}}>
-          <b class="b" style={{color: "black"}}>Technical Skills</b>
+          <b class="b " style={{color: "black"}}>Technical Skills</b>
         </div>
         {this.getSkills()}
       </div>
