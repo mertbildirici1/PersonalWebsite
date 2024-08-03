@@ -37,7 +37,6 @@ export default class SkillsComponent extends Component {
       <div>
         <span style={{ fontSize: "1.2em" }}>{skillType}</span>
         <br />
-        <br />
         <div className="SideBySide" style={{ flexWrap: "wrap" }}>
           {skills.map((skill) => {
             if (skill.icon) {
@@ -128,8 +127,8 @@ export default class SkillsComponent extends Component {
   render() {
     return (
       <div id="skills" style={{ width: "100%" }}>
-        <div style={{ fontSize: "4em", marginTop: 0}}>
-          <b class="b " style={{color: "black"}}>Technical Skills</b>
+        <div style={{ fontSize: "4em", marginTop: 0, color: this.state.darkMode ? "white" : "black" }}>
+          <b class="b "> Skills</b>
         </div>
         {this.getSkills()}
       </div>

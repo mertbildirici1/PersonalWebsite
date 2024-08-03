@@ -338,7 +338,7 @@ class App extends Component {
           {this.getContact()}
         </div>
 
-        <div className="SideBySide" style={{ width: "100%" }}>
+        <div className="SideBySide" style={{ width: "100%"}}>
           <AnchorLink
             className="backtotop"
             href="#main"

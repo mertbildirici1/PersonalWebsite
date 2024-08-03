@@ -61,8 +61,8 @@ export default class ExperienceComponent extends Component {
   render() {
     return (
       <div id="experience" style={{ width: "100%" }}>
-        <div style={{ fontSize: "4em", marginTop: 0 }}>
-          <b style={{color: "black"}}>Experience</b>
+        <div style={{ fontSize: "4em", marginTop: 0, color: this.props.darkMode ? "white" : "black" }}>
+          <b>Experience</b>
         </div>
         {this.getExperience()}
       </div>
