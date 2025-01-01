@@ -1,8 +1,21 @@
 [
   {
+    "company_name": "Students Who Sit",
+    "position": "App Developer",
+    "company_link": "https://www.studentswhosit.com/",
+    "description": [
+      "Built an app for ~ 120 sitters and 180 parents, streamlining childcare matching processes at Duke.",
+      "Reduced sitter matching time by implementing an automated request-handling system.",
+      "Integrated a secure login and user management system using Firebase Authentication.",
+      "Utilized REST APIs to connect backend services and sync user data, improving data retrieval speeds by 20%."
+    ],
+    "dates": "August 2024 - December 2024",
+    "location": "Durham, NC"
+  },
+  {
     "company_name": "Tanium",
     "position": "Software Engineer Intern",
-    "company_link": "",
+    "company_link": "https://www.tanium.com/",
     "description": [
       "Developed a Kubernetes operator in Go to automate installs and upgrades for cloud solutions.",
       "Integrated K8s operator into CI/CD pipelines, improving deployment workflows and monitoring.",
@@ -26,7 +39,7 @@
   },
   {
     "company_name": "Duke University",
-    "position": "Mobile App Developer",
+    "position": "App Developer",
     "company_link": "",
     "description": [
       "Developed an app for professors to post quizzes online, engaging 500+ active users.",

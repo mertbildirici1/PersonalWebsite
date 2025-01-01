@@ -192,21 +192,13 @@ class App extends Component {
               lineHeight: "24pt",
             }}
           >
-            I'm a rising junior at Duke University studying Computer Science
-            and Mathematics. I am passionate about machine learning and its
+            I'm a junior at Duke University studying Computer Science. 
+            I am passionate about machine learning and its
             applications in sports, biology, and finance. I thrive on staying
             updated with the latest advancements in technology and love
             exploring new areas of knowledge. I am excited to leverage my skills
             and knowledge to contribute to innovative solutions that make a
             positive impact on society.
-            <br />
-            Currently, I am interning at Tanium as a software engineer. I am working on a 
-            Kubernetes operator that will automate the upgrade process of Tanium's products in cloud environments.
-            In addition, I am conducting research on novel Protein Language Model (PLM) architectures under 
-            Dr. Naderi-Alizadeh. My research involves combining protein sequence and structure data to create models 
-            for improved learning and predictive performance. I leverage Pytorch to build and test neural network 
-            architectures, implementing deep learning techniques to advance our understanding of protein structures 
-            and their functions.
             <br />
             Raised in both the US and Turkey, I pride myself on my global identity, 
               which enriches my personal and professional life. My passion for technology 
@@ -253,7 +245,7 @@ class App extends Component {
 
   getContact = () => {
     return (
-      <div style={{ marginBottom: "4vh" }}>
+      <div style={{ marginBottom: "2vh" }}>
         {this.state.showContact && (
           <div className="contact-info">
             <span
@@ -265,11 +257,8 @@ class App extends Component {
                 marginRight: "auto",
               }}
             >
-              Email: hmertbildirici@gmail.com
+              Phone: +1 919-433-6434
               <br />
-              <span role="img" aria-label="US">🇺🇸</span> Phone: +1 919-433-6434
-              <br />
-              <span role="img" aria-label="TR">🇹🇷</span> Phone: +90 532-152-4209
             </span>
           </div>
         )}
