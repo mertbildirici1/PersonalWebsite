@@ -4,7 +4,6 @@ import Grid from "@material-ui/core/Grid";
 import "bulma/css/bulma.css";
 import AnchorLink from "react-anchor-link-smooth-scroll";
 
-import ProjectsComponent from "./Projects.js";
 import AboutComponent from "./About.js";
 import ExperienceComponent from "./Experience.js";
 import SkillsComponent from "./Skills.js";
@@ -192,9 +191,9 @@ class App extends Component {
               lineHeight: "24pt",
             }}
           >
-            I'm a junior at Duke University studying Computer Science. 
-            I am passionate about machine learning and its
-            applications in sports, biology, and finance. I thrive on staying
+            I'm a software engineer at Tanium in the Cloud Provisioner team. 
+            I am passionate about software development, machine learning and their
+            applications in finance and biology. I thrive on staying
             updated with the latest advancements in technology and love
             exploring new areas of knowledge. I am excited to leverage my skills
             and knowledge to contribute to innovative solutions that make a
@@ -203,13 +202,9 @@ class App extends Component {
             Raised in both the US and Turkey, I pride myself on my global identity, 
               which enriches my personal and professional life. My passion for technology 
               drives me to explore new innovations and create impactful projects. The intersection 
-              of Computer Science, Mathematics, and Statistics fuels my ambitions, offering endless 
+              of computer science, mathematics, and statistics fuels my ambitions, offering endless 
               opportunities for growth. I stay updated with technological advancements to tackle complex 
               challenges and drive meaningful change.
-              At Robert College in Turkey, I developed a deeper appreciation for 
-              non-STEM fields and honed my writing skills. Outside of work, I enjoy staying 
-              active at the gym, pool, or soccer field, and pursuing hobbies like candle making and 
-              cooking, which bring balance and creativity to my life.
           </span>
         </div>
       </div>
@@ -225,9 +220,6 @@ class App extends Component {
         </AnchorLink>
         <AnchorLink className="navbar-item" href="#experience">
         Experience
-        </AnchorLink>
-        <AnchorLink className="navbar-item" href="#projects">
-        Projects
         </AnchorLink>
         <AnchorLink className="navbar-item" href="#skills">
         Skills
@@ -303,16 +295,7 @@ class App extends Component {
 
         <div className="divider" />
         <ExperienceComponent />
-        <AnchorLink
-          href="#projects"
-          style={{ position: "relative", bottom: 0 }}
-        >
-          <i className="icon fa fa-chevron-down bounce" aria-hidden="true" />
-        </AnchorLink>
-
-        <div className="divider" />
-        <ProjectsComponent mobile={isMobile} />
-        <AnchorLink href="#skills" style={{ bottom: "-100vh" }}>
+        <AnchorLink href="#skills" style={{ position: "relative", bottom: 0 }}>
           <i className="icon fa fa-chevron-down bounce" aria-hidden="true" />
         </AnchorLink>
 

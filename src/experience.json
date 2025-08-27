@@ -1,5 +1,15 @@
 [
   {
+    "company_name": "Tanium",
+    "position": "Software Engineer",
+    "company_link": "https://www.tanium.com/",
+    "description": [
+      "Working on the Cloud Provisioner team, building a platform for managing cloud resources."
+    ],
+    "dates": "August 2025 - Present",
+    "location": "Durham, NC"
+  },
+  {
     "company_name": "Students Who Sit",
     "position": "App Developer",
     "company_link": "https://www.studentswhosit.com/",
@@ -51,7 +61,7 @@
     "location": "Durham, NC"
   },
   {
-    "company_name": "STATS199",
+    "company_name": "STA199",
     "position": "Teaching Assistant",
     "company_link": "https://stat.duke.edu/",
     "description": [
@@ -80,9 +90,8 @@
     "position": "ML Engineer",
     "company_link": "https://www.dukeaml.com/",
     "description": [
-      "Working for the project AMP®-Parkinson's Disease Progression Prediction.",
+      "Worked on the Parkinson's Disease Progression Prediction project.",
       "Developed a predictive model measuring the progression of Parkinson's disease.",
-      "Employed ML algorithms to analyze the data, including supervised and unsupervised learning.",
       "Utilized Scikit-learn, Pandas, and NumPy for data processing and model development."
 
     ],

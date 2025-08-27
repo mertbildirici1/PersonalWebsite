@@ -5,11 +5,6 @@
         "icon": "devicon-java-plain colored"
       },
       {
-        "name": "R",
-        "icon": "devicon-r-original colored"
-      
-      },
-      {
         "name": "C",
         "icon": "devicon-c-plain colored"
       },
@@ -28,14 +23,6 @@
       {
         "name": "Go",
         "icon": "devicon-go-original-wordmark colored"
-      },
-      {
-        "name": "HTML",
-        "icon": "devicon-html5-plain colored"
-      },
-      {
-        "name": "CSS",
-        "icon": "devicon-css3-plain colored"
       },
       {
         "name": "Pandas",
@@ -64,10 +51,6 @@
       {
         "name": "Tensorflow",
         "icon": "devicon-tensorflow-original colored"
-      },
-      {
-        "name": "Git",
-        "icon": "devicon-git-plain colored"
       },
       {
         "name": "Jupyter",
